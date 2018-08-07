@@ -29,6 +29,7 @@ def breakfast(food = "Frosted Flakes")
 "Morning is the best time for #{food}"
 end
 
+
 def lunch (food = "Grilled Cheese")
   "Afternoon is the best time for #{food} "
   
@@ -36,3 +37,8 @@ end
 
 def dinner (food = "Salmon")
   "Night is the best time for #{food}"
+end 
+
+breakfast("Scrambled Eggs")
+lunch("Pasta")
+dinner("Ramen")
