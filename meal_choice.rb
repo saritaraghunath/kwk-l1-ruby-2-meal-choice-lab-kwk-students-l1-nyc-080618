@@ -29,3 +29,5 @@ def breakfast(food = "Frosted Flakes")
 food = get.chomp 
 "Morning is the best time for #{food}"
 end
+
+def lunch (food = salmon)
