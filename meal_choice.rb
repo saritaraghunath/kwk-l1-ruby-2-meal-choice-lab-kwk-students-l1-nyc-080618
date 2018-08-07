@@ -25,8 +25,7 @@ puts snacks
 
 
 
-def breakfast(food)
-food = "frosted flakes"
+def breakfast(food = "Frosted Flakes")
 food = get.chomp 
 puts "Morning is the best time for #{food}"
 end
