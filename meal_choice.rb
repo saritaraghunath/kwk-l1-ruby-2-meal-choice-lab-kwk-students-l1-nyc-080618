@@ -26,8 +26,13 @@ puts snacks
 
 
 def breakfast(food = "Frosted Flakes")
-food = get.chomp 
 "Morning is the best time for #{food}"
 end
 
-def lunch (food = salmon)
+def lunch (food = "Grilled Cheese")
+  "Afternoon is the best time for #{food} "
+  
+end 
+
+def dinner (food = "Salmon")
+  "Night is the best time for #{food}"
