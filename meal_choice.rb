@@ -35,7 +35,7 @@ def lunch (food = "grilled cheese")
   
 end 
 
-def dinner (food = "Salmon")
+def dinner (food = "salmon")
   "Night is the best time for #{food}"
 end 
 
